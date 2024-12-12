@@ -169,7 +169,7 @@ for family in sr_families:
 textual = ['Empty', 'Ties', 'ID', 'MD', 'MA', 'CH']
 figsize = (8,8)
 
-saveas = 'otherstuff'
+saveas = 'my-experiment'
 experiment.compute_distances(distance_id='mutual_attraction', num_threads=5)
 experiment.embed_2d(embedding_id='kk')
 
