@@ -2,8 +2,8 @@ import mapel.roommates as mapel
 import random
 import math
 
-size = 0
-num_agents = 6
+size = 5
+num_agents = 14
 
 def add_ti(list, incomplete_percent, ties_percent):
     agents_to_remove = int(len(list) * incomplete_percent)
